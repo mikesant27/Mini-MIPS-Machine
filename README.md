@@ -2,6 +2,9 @@
 Design a simplified version of a MIPS machine and wrote a Verilog program that describes its structure and simulates its functioning. Used gate-level modeling for all components unless otherwise specified. 
 
 ## Instruction Set:
+
+Our MIPS Machine implements 12 instructions, 7 R-Type (add, sub, and, or, nor, not, nand, and slt), and 5 I-Type (addi, lw, sw, beq, and bne). Below is a table of each instruction, its description, and corresponding OpCode
+
 | Instruction | Description| OPCode |
 | :---------: | :--------: | :----: |
 |     add     |  Add       |  0000  |
