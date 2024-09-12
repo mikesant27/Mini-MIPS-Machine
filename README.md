@@ -10,7 +10,13 @@ Design a simplified version of a MIPS machine and wrote a Verilog program that d
 |      or     |  Or        |  0011  |
 |     nor     |  Nor       |  0100  |
 |     nand    |  Nand      |  0101  |
-|     slt     |  Set Less Than  |  0111  |
+|     slt     |  Set Less Than  |  0110  |
+|    addi     | Add Immediate | 0111 |
+|     lw     |  Load Word  |  1000  |
+|     sw     | Store Word | 1001 |
+|     beq    | Branch If Equal | 1010 |
+|     bne    | Branch If Not Equal | 1011 |
+
 
 ## Project Structure:
 This project was broken down into 4 Progress Reports, with each Progress Report building off the last, with Progress Report 4 containing our finished MIPS Machine in Verilog
