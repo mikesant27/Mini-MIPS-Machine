@@ -3,7 +3,7 @@ Design a simplified version of a MIPS machine and wrote a Verilog program that d
 
 ## Instruction Set:
 | Instruction | OPCode |
-| ----------- | ------ |
+| :---------: | :----: |
 |     add     |  0000  |
 ## Project Structure:
 This project was broken down into 4 Progress Reports, with each Progress Report building off the last, with Progress Report 4 containing our finished MIPS Machine in Verilog
